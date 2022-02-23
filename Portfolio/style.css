@@ -13,6 +13,9 @@ ul {
     font-size: larger;
     text-decoration: none;
     color: white;
+    /* background-color: grey;
+     */
+    
 }
 .name{
     /* margin-top: 20%;
@@ -29,4 +32,13 @@ ul {
 .image1{
     float:right ;
     width: 50%;
+}
+.navbar li a:hover{
+    background-color: green;
+
+
+}
+.about{
+    text-align: center;
+
 }
