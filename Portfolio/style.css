@@ -1,4 +1,15 @@
-.navbar {
-    list-style-type: none;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+ul {
     display: flex;
+    justify-content: space-around;
+    
+}
+.navbar li a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
 }
