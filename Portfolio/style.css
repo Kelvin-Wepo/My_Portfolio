@@ -18,5 +18,15 @@ ul {
     /* margin-top: 20%;
     margin-left: -50%; */
     padding: 100px 150px 100px 150px;
-    
+    display: flex;
+    justify-content: space-around;
+}
+
+.name_content {
+    font-size: 40px;
+}
+
+.image1{
+    float:right ;
+    width: 50%;
 }
