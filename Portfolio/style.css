@@ -75,6 +75,7 @@ ul {
     border-radius:20px ;
     color: black;
     background-color: white;
+    box-shadow: turquoise;
 
 }
 .skills{
@@ -90,3 +91,22 @@ ul {
 .icons img {
     padding: 50px;
 }
+.services{
+    justify-content: space-around; 
+    
+
+}
+.images{
+    padding: 50px;
+    justify-content: space-around;
+
+
+}
+.work:hover{
+    color:blue;
+}
+.education:hover{
+    color: blue;
+    box-shadow: yellowgreen;
+}
+
