@@ -44,7 +44,18 @@ ul {
 }
 .education{
     text-align: center;
+    border-radius: 2px;
+    border-color: green;
+    border: green;
+    margin: 2%;
 }
 .work{
     text-align: center;
+}
+.skills{
+    text-align: center;
+}
+.icons{
+    float: right;
+    margin-right: 10%;
 }
