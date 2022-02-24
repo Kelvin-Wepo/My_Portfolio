@@ -4,15 +4,19 @@ body{
     background-color: #000;
     color: white;
 }
+
+
 ul {
     display: flex;
     justify-content: space-around;
-    
+    list-style-type: none;
+    width: 40%;
 }
 .navbar li a {
     font-size: larger;
     text-decoration: none;
     color: white;
+    
     /* background-color: grey;
      */
     
@@ -34,7 +38,7 @@ ul {
     width: 50%;
 }
 .navbar li a:hover{
-    background-color: green;
+    color: green;
 
 
 }
@@ -42,15 +46,36 @@ ul {
     text-align: center;
 
 }
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
 .education{
+    box-sizing: border-box; 
     text-align: center;
-    border-radius: 2px;
-    border-color: green;
-    border: green;
-    margin: 2%;
+    border: 1px solid white;
+    height: 40%;
+    width: 30%;
+    border-radius: 20px;
+    /* margin-left: 400px; */
+    color: #000;
+    background-color: white;
+    
+    
+    
 }
 .work{
     text-align: center;
+    box-sizing: border-box;
+    border:1px solid white;
+    height:40%;
+    width: 30%;
+    border-radius:20px ;
+    color: black;
+    background-color: white;
+
 }
 .skills{
     text-align: center;
