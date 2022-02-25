@@ -107,6 +107,22 @@ ul {
 }
 .education:hover{
     color: blue;
-    box-shadow: yellowgreen;
+    box-shadow:0
+}
+
+.hide {
+    display: none;
+}
+
+.hide:hover {
+    display: block;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+
 }
 
