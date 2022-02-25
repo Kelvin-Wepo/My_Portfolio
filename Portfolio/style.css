@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #000;
+     background-color: #000; 
     color: white;
 }
 
@@ -92,8 +92,9 @@ ul {
 .icons img {
     padding: 50px;
 }
-.Services{
-    justify-content: space-around;  
+.Services img{
+     justify-content: space-around; 
+     padding: 50px;
     
 
 }
@@ -127,18 +128,27 @@ ul {
     margin-top: 10%;
 }
 .location{
-    display:inline-block;
+    
     padding-left: 20%;
-    padding-bottom: 30%;
+    margin-bottom: 20%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    height: 250px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: white;
+    color: #000;
 } 
 
 .images img {
     border-radius: 10px;
+    margin: 50px;
+    border-radius: 20px;
 }
-
 .icons img {
     border-radius: 10px;
 }
+
     
 
 
