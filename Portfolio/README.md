@@ -9,7 +9,6 @@
 ## Technology Used
 * Html
 * Css
-* Bootstrap
 
 ## Project live link
 
